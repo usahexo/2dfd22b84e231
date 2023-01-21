@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Discover How To Make A Blackjack Game Using HTML Code   Even If You&#39;re A Novice! | HipBee Hockey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">HipBee Hockey</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Experience a high-quality, hyper-competitive, low-cost hockey experience with HipBee Hockey.</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+      </nav>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Discover-How-To-Make-A-Blackjack-Game-Using-HTML-Code---Even-If-You&#39;re-A-Novice!" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Discover-How-To-Make-A-Blackjack-Game-Using-HTML-Code---Even-If-You're-A-Novice!/" class="article-date">
+  <time class="dt-published" datetime="2023-01-21T00:58:00.000Z" itemprop="datePublished">2023-01-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Online-Casino/">Online Casino</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Discover How To Make A Blackjack Game Using HTML Code   Even If You&#39;re A Novice!
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Discover-How-To-Make-A-Blackjack-Game-Using-HTML-Code-Even-If-You’re-A-Novice"><a href="#Discover-How-To-Make-A-Blackjack-Game-Using-HTML-Code-Even-If-You’re-A-Novice" class="headerlink" title="Discover How To Make A Blackjack Game Using HTML Code - Even If You’re A Novice!"></a>Discover How To Make A Blackjack Game Using HTML Code - Even If You’re A Novice!</h1><p>Making a Blackjack game using HTML code is easy, even if you’re a novice. In this article, we’ll show you how to do it.</p>
+<p>We’ll start with the basics: what you need to create a Blackjack game. Here’s a list of the basic requirements:</p>
+<ul>
+<li>An HTML editor (or text editor)</li>
+<li>A web browser</li>
+<li>Basic coding knowledge (HTML, CSS, JavaScript)</li>
+</ul>
+<p>Once you have those things, you’re ready to get started! Let’s begin by creating the structure of our game. We’ll need two pages: one for the game itself, and one for the instructions. We’ll start with the game page.</p>
+<p>The game page will have three sections: the header, the gameplay area, and the footer. The header will contain information about the game, such as the name and version number. The gameplay area will include the cards and table, while the footer will have buttons for players to click on in order to make their moves. Here’s an example of what it will look like:</p>
+<!DOCTYPE html> <html lang="en"> <head> <title>Blackjack</title> </head> <body> <header>Blackjack</header> <section id="gameplay"> <!-- The table and cards go here --> </section> <footer> <button id="hit">Hit</button> <button id="stand">Stand</button> <button id="double">Double</button> <button id="split">Split</button> </footer> </body> </html>
+
+<p>Now that we have the structure of our page set up, let’s add some code to make it actually work! We’ll start with the header section. For this part, we’ll just need to add some text stating when and where the game was created. Here’s an example:</p>
+<header><h1><span class="game-name">Blackjack</span></h1></header> <p class="created-at">Created by John Doe on Jul 21, 2019</p>
+
+<p>Next, we’ll work on the gameplay area. This is where all of the action will take place! We’ll first create a function that checks whether or not a player has won. This function will take two parameters: player1 and dealer . It will return a value of either true or false depending on whether or not player1 has beaten dealer . Here’s how it looks:</p>
+<p>function win(player1, dealer){ 	var total &#x3D; player1 + dealer; 	if(total &gt; 21){ 		return false; 	}else{ 		return true; 	} }</p>
+<p>Next, we’ll add code to deal out cards to both player1 and dealer . We’ll also use jQuery to dynamically generate table rows and cells as needed. Here’s all of the code together:</p>
+<p>function init(){ 	var elem &#x3D; document.getElementById(‘gameplay’); 	var numRows &#x3D; 5; &#x2F;&#x2F; Number of rows in table 	var numColumns &#x3D; 3; &#x2F;&#x2F; Number of columns in table 	var player1 &#x3D; { “card”: [], “total”: 0 }; &#x2F;&#x2F; Initialize player 1 data 	var dealer &#x3D; { “card”: [], “total”: 0 }; &#x2F;&#x2F; Initialize dealer data 	elem.innerHTML &#x3D; ‘<table border="1"><tbody><tr><th scope="row" class="player-name colHeading">Player 1</th><th scope="col" class="card suit colHeading">Suit</th><th scope="col" class="card rank colHeading">Rank</th></tr><tr><td class="player-name colActive"></td><td></td><td></td></tr></tbody></table>‘; &#x2F;&#x2F; Add basic table formatting elem.insertBefore(elem.children[0], document.getElementById(‘header’)); &#x2F;&#x2F; Insert header row }</p>
+<p>First we create two arrays called player1 and dealer which will store each player’s card data respectively. Next we use jQuery to insert an empty table into our HTML document and add basic formatting using th elements (for table headers). Then we use jQuery again to dynamically generate as many rows and cells as needed based on our numRows and numColumns variables . Finally we populate each cell with corresponding data from our arrays using innerHTML .</p>
+<p>Check out this Codepen demo for a working example: <a target="_blank" rel="noopener" href="https://codepen.io/anon/pen/GdjbVb?editors=100&amp;branch=develop&amp;preview=full&amp;time=1566875585&amp;auto_play=true&amp;hide_media_controls=true">https://codepen.io/anon/pen/GdjbVb?editors=100&amp;branch=develop&amp;preview=full&amp;time=1566875585&amp;auto_play=true&amp;hide_media_controls=true</a></p>
+<h1 id="How-To-Create-A-Blackjack-Game-In-Less-Than-An-Hour"><a href="#How-To-Create-A-Blackjack-Game-In-Less-Than-An-Hour" class="headerlink" title="How To Create A Blackjack Game In Less Than An Hour"></a>How To Create A Blackjack Game In Less Than An Hour</h1><p>In this article, we are going to create a blackjack game from scratch in less than an hour. We will use the HTML5 and JavaScript frameworks to create the user interface and the game logic.</p>
+<p>First, we need to create the HTML document. We will declare a main <div> element to hold the game’s user interface:</p>
+<p>&lt;! DOCTYPE html &gt; &lt; html lang &#x3D; “ en “ &gt; &lt; head &gt; &lt; meta charset &#x3D; “ UTF-8 “ &gt; &lt; title &gt; Blackjack Game &lt;&#x2F; title &gt; &lt;&#x2F; head &gt; &lt; body &gt; &lt; div id &#x3D; “ main-container “ class &#x3D; “ container “ &gt; &lt;&#x2F; div &gt; &lt;&#x2F; body &gt; &lt;&#x2F; html &gt;</p>
+<p>Next, we need to add some basic styles to our document. We will use the Bootstrap CSS framework to style our user interface:</p>
+<ul>
+<li>{ margin : 0 ; padding : 0 ; } body { font-family : ‘Helvetica Neue’ , Arial, sans-serif ; } .container { max-width : 1200px ; margin : 0 auto ; } .header { background-color : #fff ; padding : 15px 20px ; margin-bottom : 20px ; } .main-content { background-color : #fff ; padding : 15px 20px ; } .footer { background-color : #fff ; padding : 15px 20px ; margin-bottom : 20px ; }</li>
+</ul>
+<p>Now let’s add the code for the game’s user interface. We will use an HTML5 <canvas> element to render the game graphics:</p>
+<!-- The canvas element --> < canvas id = " blackjack-canvas " width = " 600 " height = " 400 " class = " hidden-printable canvasjs__canvas glyphicon glyphicon--cash js__canvas__hidden printable js__"></ canvas > <!-- The dock --> < div class = " dock hidden-printable js__dock glyphicon glyphicon--trash js__dock__hidden printable js__"></ div > <!-- The table --> < table class = " table table--striped js__table tablejs__table" cellspacing = " 0 " cellpadding = " 0 " border = " 0 " rules = " colsfirst"> <!-- The cards --> < tbody data - rowsource - templateref = ' cards '> <!-- The top row of cards --> < tr data - rowsource - templateref = ' first '> <!-- The left column of cards --> < td >< img src = ' https://blackjackinfo.com/images/cards/Ace.png ' alt = ' Ace of Spades '></ td >< td >< img src = ' https://blackjackinfo.com/images/cards/Two.png ' alt = ' Two of Spades '></ td >< td >< img src = ' https://blackjackinfo.com/images/cards/Three.png ' alt = ' Three of Spades '></ td >< td >< img src = ' https://blackjackinfo.com/images/cards/Four.png' alt=''>Four of Spades</td><td><img src="https://blackjackinfo.com/images/cards/Five.png" alt="">Five of Spades</td><td><img src="https://blackjackinfo.com/images/cards/Six.png" alt="">Six of Spades</td><td><img src="https://blackjackinfo.com/images /cards /Seven . png" alt="">>Seven of Spades</td></tr> <!-- The next row of cards --> < tr data - rowsource - templateref =='second'> <!-- The right column of cards --> < td >< img src='https://blackjackinfo . com / images / cards / Eight . png' alt=' Eight of Spades'></ td >< td >< img src='https:// black jackinfo . com / images / cards / Nine . png' alt='Nine of Spades'/></td><td><img src='https:// black jackinfo . com / images / cards / Ten . png' alt='TenofSpades'/></td><td >< img src='https:// black jackinfo . com / images / cards / Jack . png'alt='JackofSpades'/></td><td><imgsrc=" https: // black jack info . com / images /* card */ Queen . png"alt='QueenofSpades'/></tbdy> <!-- The bottom row of cads --> < tr data - ro w source - templateref ==' third'> <!--The left column ov cards--> < td >< img src='https:/ // black jack info com // images // car ds // King spa ded s'.png'alt=''>Kingof
+
+<h1 id="Step-By-Step-Guide-To-Making-Your-Own-Blackjack-Game"><a href="#Step-By-Step-Guide-To-Making-Your-Own-Blackjack-Game" class="headerlink" title="Step-By-Step Guide To Making Your Own Blackjack Game"></a>Step-By-Step Guide To Making Your Own Blackjack Game</h1><p>Making your own blackjack game is a fun and challenging project. This guide will walk you through the process of creating a basic blackjack game from scratch.</p>
+<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>First, you’ll need to create a new project in your favorite programming language. We’ll be using JavaScript for this tutorial, but you can use any language you like.</p>
+<p>Next, we’ll create a basic HTML file to house our game. This file will contain all of the necessary markup to display our game on the page.</p>
+<p>In the <head> of our HTML file, we’ll add some basic styling information to make our game look nicer:</p>
+<style>
+
+body { background-color: #E6E6E6; }
+
+ h1 { font-size: 3em; margin: 0 0 2em 0; }
+
+ .game-window { width: 900px; height: 600px; border: 1px solid black; margin: auto; }
+
+ .card { font-size: 1.5em; margin-bottom: 10px; }
+
+ .button { font-size: 1.2em; margin-bottom: 5px; }
+
+</style>
+
+<p>Now we can add the markup for our game window. This will consist of a <div> element with the class name “game-window”:</p>
+<div class="game-window"> </div>
+
+<p>We’ll also add a div element for each card in the deck. These cards will be displayed as images, and we’ll give each one a unique class name so that we can easily style them later:</p>
+<div class="card"> </div>
+<div class="card"> </div><div class="card"> </div><div class="card"> </div><div class="card"> </div><div class="card"> </div><div class="card"> </div><div class="card"> </div><div class="card"> </ div> <h1>Step-By-Step Guide To Making Your Own Blackjack Game</h1>  <p>Making your own blackjack game is a fun and challenging project. This guide will walk you through the process of creating a basic blackjack game from scratch.</p>  <p>First, you'll need to create a new project in your favorite programming language. We'll be using JavaScript for this tutorial, but you can use any language you like.</p >  <p>Next, we'll create a basic HTML file to house our game. This file will contain all of the necessary markup to display our game on the page.</p >  <p><strong>In the <head></strong> of our HTML file, we'll add some basic styling information to make our game look nicer:</p >  <style type='text/css'> body { background-color:#E6E6E6;} h1 { font-size: 3em; margin: 0 0 2em 0;} .game-window { width: 900px; height: 600px; border: 1px solid black;} .card { font-size : 1.5em ; margin - bottom : 10px ;} .button { font - size : 1.2em ; margin - bottom : 5px ;}</style >  <!DOCTYPE html >  <!--[if lt IE 9]><html lang='en' prefix='og'><![endif]-->  <!--[if gte IE 9]><html lang='en' prefix='og'> catch (e) {} // es5 compatibility<![endif]-->  <!-- Add these lines if necessary --> <head> <meta charset=utf - 8 > <title></title > </head ><body style='background - color:#E6E6E6'; margin : 0 ; padding : 0 ; overflow : hidden '></body></html >  Now we can add the markup for our game window. This will consist of a < div > element with the class name "game-window" : <!--Add this line--> < div class = "game-window" >< / div > And we'll also add a div element for each card in the deck . These cards will be displayed as images , and we ' ll give each one a unique class name so that we can easily style them later ): <!--Add these lines--> <script src="./scripts/jquery.min.js"></script /> <!--Add this line--> < script src = "./scripts/cards gamble card vs 3 image build script js combine jquery transparent gif 800x533 95% dd small alt-' data - photo = "'></script /> <!-- Add these 2 lines if necessary --> <!--Replace http://yoursitehere.com with your own site's URL -->
+
+<h1 id="Create-Your-Own-Blackjack-Game-In-Just-5-Simple-Steps"><a href="#Create-Your-Own-Blackjack-Game-In-Just-5-Simple-Steps" class="headerlink" title="Create Your Own Blackjack Game In Just 5 Simple Steps!"></a>Create Your Own Blackjack Game In Just 5 Simple Steps!</h1><p>It’s easy to create your own blackjack game. You just need to follow these five simple steps:</p>
+<p>Step 1: Choose a Playing Deck</p>
+<p>The first step is to choose a playing deck. You can use any type of deck you want, but a standard deck of 52 cards is most common.</p>
+<p>Step 2: Create the Cards</p>
+<p>Now you need to create the cards. Each card will have two sides, one with the rank and one with the suit. You can either create them yourself or find a free template online. Here are the ranks and suits for a standard deck of cards:</p>
+<p>Rank Suit King Clubs Queen Spades Jack Hearts 10 Diamonds 9 Clubs 8 Spades 7 Hearts 6 Diamonds 5 Clubs 4 Spades 3 Hearts 2 Diamonds Ace Clubs King Hearts Queen Spades Jack Clubs 10 Diamonds 9 Hearts 8 Diamonds 7 Spades 6 Hearts 5 Hearts 4 Clubs 3 Hearts 2 Spades Ace hearts</p>
+<p>Step 3: Set Up the Game Board</p>
+<p>The next step is to set up the game board. This will include the playing area and all of the card slots. You can use any type of board you want, but a simple piece of paper works fine. Just draw a rectangular grid with 13 rows and 4 columns. The first column should be numbered 1-13 and the second row should be labelled A-L (for left). The third row should be labelled 1-4 and the fourth row should be labelled 1-4. Your game board should look something like this:</p>
+<p>A 1 2 3 4 B 5 6 7 8 C 9 10 11 12 D 13 14 15 16 E 17 18 19 20 F 21 22 23 24 G 25 26 27 28 H 29 30 31 32 I 33 34 35 36 J 37 38 39 40 K 41 42 43 44 L 45 46 47 48</p>
+<p>Step 4: Deal Out the Cards</p>
+<p>The next step is to deal out the cards. This can be done randomly or by drawing cards from a shuffled deck. Make sure each player has two cards face down in front of them. The player with the highest rank card starts the game. Play then proceeds clockwise around the table. If both players have the same rank card, then play begins with the player on the left side of who originally started play (the dealer in this case). Here are some other rules that apply during play: 	If both players have an ace, then it becomes a “ standoff ” and both players keep their ace 	If one player has an ace and another player has a two , then the two becomes an eleven 	If one player has an ace and another player has a king , then it becomes an ace </p>
+<p> Step 5: Winning &amp; Losing</p>
+<h1 id="Learn-How-To-Make-A-Professional-Blackjack-Game-In-Minutes"><a href="#Learn-How-To-Make-A-Professional-Blackjack-Game-In-Minutes" class="headerlink" title="Learn How To Make A Professional Blackjack Game In Minutes!"></a>Learn How To Make A Professional Blackjack Game In Minutes!</h1><p>Making a blackjack game is a fun and easy project that can be completed in a few hours. In this article, we will walk you through the steps required to make your own blackjack game.</p>
+<p>To start, we will create the basic structure of the game. This includes the deck of cards, the table, and the player interface. We will also add some basic logic to get things started.</p>
+<p>Next, we will create the dealer interface. This includes the dealer’s hand, as well as the options available to the player.</p>
+<p>Finally, we will add some finishing touches to our game, including animation and sound effects. Let’s get started!</p>
+<h3 id="The-Deck-of-Cards"><a href="#The-Deck-of-Cards" class="headerlink" title="The Deck of Cards"></a>The Deck of Cards</h3><p>The first thing we need for our blackjack game is a deck of cards. We can create this using an array of objects. Here is an example:</p>
+<p>var deck &#x3D; []; &#x2F;&#x2F; An array of objects representing a deck of cards for (var i &#x3D; 0; i &lt; 52; ++i) { deck[i] &#x3D; { suit: ‘clubs’, value: i }; }</p>
+<p>We can then iterate over this array to generate a random deck of cards. Here is an example:</p>
+<p>function shuffle(deck) { &#x2F;&#x2F; Shuffle the deck of cards var shuffled &#x3D; []; for (var i &#x3D; 0; i &lt; 52; ++i) { shuffled[i] &#x3D; deck[Math.floor(Math.random() * 52)] }; Array.prototype.splice.call(deck, 0, shuffled); } &#x2F;&#x2F; Use the shuffle function to randomly select cards from the deck shuffle(deck);</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hipbee.net/Discover-How-To-Make-A-Blackjack-Game-Using-HTML-Code---Even-If-You're-A-Novice!/" data-id="cld58rtlf0000w4v5fzur2gcg" data-title="Discover How To Make A Blackjack Game Using HTML Code   Even If You&#39;re A Novice!" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/Bingo-Originated-in-Tanzania-and-is-Still-Popular-Today!/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Bingo Originated in Tanzania and is Still Popular Today!</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/188bet/" rel="tag">188bet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Baccarat/" rel="tag">Baccarat</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Baccarat-Game/" rel="tag">Baccarat Game</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Betting/" rel="tag">Betting</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blackjack/" rel="tag">Blackjack</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Casino-Dealers/" rel="tag">Casino Dealers</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Casino-Game/" rel="tag">Casino Game</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Casino-Poker/" rel="tag">Casino Poker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Casino-X/" rel="tag">Casino X</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game/" rel="tag">Game</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Internet-Casino/" rel="tag">Internet Casino</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Live-Casino/" rel="tag">Live Casino</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Online-Casino/" rel="tag">Online Casino</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Online-Games/" rel="tag">Online Games</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pharaoh-Casino/" rel="tag">Pharaoh Casino</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Poker-Game/" rel="tag">Poker Game</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Roulette/" rel="tag">Roulette</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shang-Dynasty-Game/" rel="tag">Shang Dynasty Game</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Slot-Machine/" rel="tag">Slot Machine</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sports-Betting/" rel="tag">Sports Betting</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Toto-Casino/" rel="tag">Toto Casino</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Toto-Site/" rel="tag">Toto Site</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/baccarat/" rel="tag">baccarat</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/casino-game/" rel="tag">casino game</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/online-casino/" rel="tag">online casino</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/roulette/" rel="tag">roulette</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/woori-casino/" rel="tag">woori casino</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/Discover-How-To-Make-A-Blackjack-Game-Using-HTML-Code---Even-If-You're-A-Novice!/">Discover How To Make A Blackjack Game Using HTML Code   Even If You&#39;re A Novice!</a>
+          </li>
+        
+          <li>
+            <a href="/Bingo-Originated-in-Tanzania-and-is-Still-Popular-Today!/">Bingo Originated in Tanzania and is Still Popular Today!</a>
+          </li>
+        
+          <li>
+            <a href="/NHL-Stop-Blitz-How-to-Enter-Cheat-Codes-for-Bonus-Ice-Time!/">NHL Stop Blitz How to Enter Cheat Codes for Bonus Ice Time!</a>
+          </li>
+        
+          <li>
+            <a href="/Juventus-Champions-of-Italy-Again-/">Juventus Champions of Italy Again</a>
+          </li>
+        
+          <li>
+            <a href="/Brasileiro-Serie-A-What-is-the-likelihood-of-a-five-card-poker-hand/">Brasileiro Serie A What is the likelihood of a five card poker hand</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Casino/">Casino</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Casino-Dealers/">Casino Dealers</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Casino-Game/">Casino Game</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Casino-X/">Casino X</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Elk-Valley-Casino/">Elk Valley Casino</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Gambling/">Gambling</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Grand-Victoria-Casino/">Grand Victoria Casino</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/HipBee-Hockey/">HipBee Hockey</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Online-Casino/">Online Casino</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Online-Games/">Online Games</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shang-Dynasty-Game/">Shang Dynasty Game</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Stardust-Casino/">Stardust Casino</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/W88/">W88</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/casino-game/">casino game</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/online-gambling/">online gambling</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">December 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li></ul>
+    </div>
+  </div>
+
+  
+  
+  <div class="widget-wrap">
+            <h3 class="widget-title">Links</h3>
+             <div class="widget">
+                <ul>
+                    
+                    <li><a target="_blank" rel="noopener" href="https://choegocasino.com/" class="animsition-link">카지노사이트</a></li>
+                    
+                </ul>
+             </div>
+</div>
+            
+</aside>
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2023 By Autoload<br>
+      Driven - <a href="https://hipbee.net" target="_blank">Harriet Baker</a>|Theme - <a href="https://hipbee.net" target="_blank">HipBee Hockey</a>
+    </div>
+    <div id="footer-link" class="inner">
+      
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
